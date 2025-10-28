@@ -4,7 +4,7 @@ An Angular-based request submission application with multi-section forms, auto-s
 
 ## 🚀 Live Demo
 
-Check out the live demo: <a href="https://edan-daynmic-form.netlify.app/" target="_blank" rel="noopener noreferrer">https://edan-daynmic-form.netlify.app/</a>
+Check out the live demo: <a href="https://enda-daynmic-form.netlify.app/" target="_blank" rel="noopener noreferrer">https://enda-daynmic-form.netlify.app/</a>
 
 ## Features
 
