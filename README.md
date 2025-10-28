@@ -2,6 +2,10 @@
 
 An Angular-based request submission application with multi-section forms, auto-save functionality, and modern UI components.
 
+## 🚀 Live Demo
+
+Check out the live demo: [https://edan-daynmic-form.netlify.app/](https://edan-daynmic-form.netlify.app/)
+
 ## Features
 
 - **Multi-Section Request Flow**: Navigate through multiple sections of questions with progress tracking
