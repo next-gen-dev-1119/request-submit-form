@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, inject, OnInit, signal, computed } from '@angular/core';
-import { Schema } from '../../../shared/types';
-import { SchemaService } from '../../../shared/apis/schema.service';
+import { Schema } from '../../../common/types';
+import { SchemaService } from '../../../common/apis/schema.service';
 import { Router } from '@angular/router';
-import { RequestStateService } from '../../../shared/state/request.service';
+import { RequestStateService } from '../../../common/state/request.service';
 import { OpSelectorComponent, OpOption } from '../../../components/op-selector/op-selector.component';
 import { OpButtonComponent } from '../../../components/op-button/op-button.component';
 import { OpLoaderComponent } from '../../../components/op-loader/op-loader.component';

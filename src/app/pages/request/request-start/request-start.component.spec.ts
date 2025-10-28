@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { RequestStartComponent } from './request-start.component';
-import { SchemaService } from '../../../shared/apis/schema.service';
-import { RequestStateService } from '../../../shared/state/request.service';
+import { SchemaService } from '../../../common/apis/schema.service';
+import { RequestStateService } from '../../../common/state/request.service';
 import { provideRouter } from '@angular/router';
 import { of } from 'rxjs';
 

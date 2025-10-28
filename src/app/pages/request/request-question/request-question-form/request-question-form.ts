@@ -13,12 +13,12 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { Field } from '../../../../shared/types';
+import { Field } from '../../../../common/types';
 import { OpFormFieldText } from '../../../../components/op-form/op-form-field/op-form-field-text/op-form-field-text';
 import { OpFormFieldNumber } from '../../../../components/op-form/op-form-field/op-form-field-number/op-form-field-number';
 import { OpFormFieldRadio } from '../../../../components/op-form/op-form-field/op-form-field-radio/op-form-field-radio';
 import { OpFormFieldToggle } from '../../../../components/op-form/op-form-field/op-form-field-toggle/op-form-field-toggle';
-import { RequestService } from '../../../../shared/apis/requests.service';
+import { RequestService } from '../../../../common/apis/requests.service';
 import { catchError, of, retry } from 'rxjs';
 import { QuestionContainerComponent } from './question-container/question-container.component';
 

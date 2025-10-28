@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
-import { RequestStateService } from '../../../shared/state/request.service';
+import { RequestStateService } from '../../../common/state/request.service';
 import { OpButtonComponent } from '../../../components/op-button/op-button.component';
 import { Router } from '@angular/router';
 

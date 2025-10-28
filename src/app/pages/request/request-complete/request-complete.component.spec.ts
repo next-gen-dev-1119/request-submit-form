@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { RequestCompleteComponent } from './request-complete.component';
-import { RequestStateService } from '../../../shared/state/request.service';
+import { RequestStateService } from '../../../common/state/request.service';
 import { provideRouter } from '@angular/router';
 import { signal } from '@angular/core';
 

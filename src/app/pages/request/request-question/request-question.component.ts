@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 
-import { RequestStateService } from '../../../shared/state/request.service';
-import { Field } from '../../../shared/types';
+import { RequestStateService } from '../../../common/state/request.service';
+import { Field } from '../../../common/types';
 import { RequestQuestionForm } from './request-question-form/request-question-form';
 import { catchError, debounceTime, defer, distinctUntilChanged, of, retry, switchMap, tap, timer } from 'rxjs';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { RequestService } from '../../../shared/apis/requests.service';
+import { RequestService } from '../../../common/apis/requests.service';
 import { OpSaveStateService } from '../../../components/op-save-state/op-save-state.service';
 import { RequestQuestionSidebarComponent, SidebarItem } from './request-question-sidebar/request-question-sidebar.component';
 import { OpButtonComponent } from '../../../components/op-button/op-button.component';

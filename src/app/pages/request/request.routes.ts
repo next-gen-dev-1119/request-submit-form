@@ -1,6 +1,6 @@
 import { inject } from '@angular/core';
 import { Router, Routes } from '@angular/router';
-import { RequestStateService } from '../../shared/state/request.service';
+import { RequestStateService } from '../../common/state/request.service';
 const shouldHasRequestInProgress = () => {
   const state = inject(RequestStateService);
   const router = inject(Router);

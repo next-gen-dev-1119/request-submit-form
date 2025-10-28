@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { RequestQuestionComponent } from './request-question.component';
-import { RequestStateService } from '../../../shared/state/request.service';
-import { RequestService } from '../../../shared/apis/requests.service';
+import { RequestStateService } from '../../../common/state/request.service';
+import { RequestService } from '../../../common/apis/requests.service';
 import { OpSaveStateService } from '../../../components/op-save-state/op-save-state.service';
 import { provideRouter } from '@angular/router';
 import { signal } from '@angular/core';

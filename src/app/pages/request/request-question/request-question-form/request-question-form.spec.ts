@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { RequestQuestionForm } from './request-question-form';
-import { RequestService } from '../../../../shared/apis/requests.service';
+import { RequestService } from '../../../../common/apis/requests.service';
 import { of } from 'rxjs';
 
 describe('RequestQuestionForm', () => {
